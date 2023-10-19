@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title"> API Geo</h1>
+
+    <form method="post">
+        <label for="codePostal"> code postal : </label>
+        <input type="text" name="codePostal" id="codePostal" class="codePostal">
+        <br> <br>
+        <label for="nom"> ville : </label>
+       
+        <select name="nom" id="nom" class="nom">
+            <option value="" disabled selected>Sélectionnez une option</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Valider">
+    </form>
+
+    <div class="result"></div>
+
+    <script src="js/script.js"> </script>
+</body>
+</html>
