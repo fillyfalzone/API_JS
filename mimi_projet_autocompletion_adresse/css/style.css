@@ -1,0 +1,6 @@
+.searchBar {
+    border: 1px solid red !important;
+    max-width: 500px;
+  }
+
+#mapid { height: 500px; }

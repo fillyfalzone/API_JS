@@ -34,7 +34,7 @@ function getInfosAPI(codePostal) {
         //S'il ya plusieurs viles afficher les info au changement d'option
         select.addEventListener('change', () => {
             const selectedOption = data[select.value];
-            result.innerHTML = "Nom : " + selectedOption.nom + "<br>" + "Population : " + selectedOption.population + "<br>" + "Code région : " + selectedOption.codeRegion + "<br>" + "Code département : " + selectedOption.codeDepartment + "<br>";
+            result.innerHTML = "Nom : " + selectedOption.nom + "<br>" + "Population : " + selectedOption.population + "<br>" + "Code région : " + selectedOption.codeRegion + "<br>" + "Code département : " + "<br>";
         });
     })
     .catch(error => {
